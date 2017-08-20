@@ -2,6 +2,7 @@
 Matlab function generating indices to split data to approximately equal parts. 
 One of the main uses is cross-validation for machine learning applications. 
 This is an alternative to [crossvalind](https://uk.mathworks.com/help/bioinfo/ref/crossvalind.html) from bioinformatics toolbox, so it will be especially handy if you don't have this toolbox.
+Performance-wise, it seems to be on average **50%** faster than crossvalind.
 
 usage: 
 ```matlab
